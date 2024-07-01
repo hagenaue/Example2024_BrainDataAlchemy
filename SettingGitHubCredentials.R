@@ -47,6 +47,8 @@ git_sitrep()
 # Read more about what this GitHub remote configurations means at:
 #   'https://happygitwithr.com/common-remote-setups.html'
 
+create_github_token()
+
 gitcreds::gitcreds_set()
 # -> Adding new credentials...
 # -> Removing credentials from cache...
